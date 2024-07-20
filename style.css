@@ -1,22 +1,72 @@
-li {
-    list-style: none;
-    background-color: grey;
+/* Base HTML Styles */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --brand: #8246af;
+  --action: #ffa300;
+  --white: #ffffff;
+  --base-light: #cdb5df;
+  --base-dark: #0d0711;
+  --black: #111111;
 }
-ul li {
-    list-style: disc;
-}
-ol li {
-    list-style: lower-alpha;
-}
-.test {
-    background-color: rgb(159, 157, 162);
-}
-.btn-primary {
-    padding: 12px 16px;
-    display: inline-block;
-    color: white;
-    border-radius: 4px;
-    background-color: green;
-    text-decoration: none;
-    font-family: arial;
+
+ /* CSS Reset */
+
+ html {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: "Inter", sans-serif;
+   color: var(--black);
+   scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+   box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Rubik", sans-serif;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ ol,
+ ul {
+   list-style: none;
+ }
+
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+   font: inherit;
+ }
+/* Utilities */
+
+.display-none {
+  display: none;
 }
