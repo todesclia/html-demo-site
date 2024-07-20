@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+    background-color: grey;
+}
+ul li {
+    list-style: disc;
+}
+ol li {
+    list-style: lower-alpha;
+}
+.test {
+    background-color: rgb(159, 157, 162);
+}
+.btn-primary {
+    padding: 12px 16px;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+    background-color: green;
+    text-decoration: none;
+    font-family: arial;
+}
